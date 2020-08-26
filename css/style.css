@@ -191,9 +191,11 @@
 .event-txt>span{
   color: #ac005c;
   font-weight: 500;
-  
-
 }
+.event-txt>li>a:hover{
+  text-decoration-line: underline;
+}
+
 
 
 
