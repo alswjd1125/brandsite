@@ -101,6 +101,45 @@
   font-size: 25px;
   font-family: 'NotoSerifKR';
 } 
+
+
+.no-gutters{
+  justify-content: space-between;
+}
+.map{
+  padding-bottom: 100px;
+}
+.event{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.event-txt{
+  font-family: 'NotoSerifKR';
+  font-weight: bold;
+  padding-top: 20px;
+}
+.event-txt>span{
+  color: #ac005c;
+  font-weight: 500;
+}
+.event-txt>li>a:hover{
+  text-decoration-line: underline;
+}
+
+/* 예약 페이지 */
+.event-txt2>h1{
+  font-size: 20px;
+  font-family: 'NotoSerifKR';
+  padding-bottom: 20px;
+}
+.event-txt2>p{
+  font-family: 'NotoSerifKR';
+}
+.event-area{
+  padding-top: 100px;
+}
 .txt-box{
   position: absolute;
   top: 27%;
@@ -147,7 +186,7 @@
   border: 2px solid #ac005c;
   border-radius: 50px;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 100px;
   cursor: pointer;
 }
 .contact-btn>p{
@@ -170,31 +209,53 @@
   padding-top: 30px;
   font-size: 20px;
 }
-
-.no-gutters{
-  justify-content: space-between;
+/* 생일이벤트 시작 */
+.birth-txt{
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
-.map{
+.birth-txt>h1{
+  font-family: 'NotoSerifKR';
+  padding-bottom: 10px;
+}
+.birth-txt>p{
+  color:#ac005c; 
+  font-family: 'NotoSerifKR';
+  font-size: 20px;
+}
+.birth-bg{
+  background: #621e38;
+  padding-bottom: 50px;
+}
+.birth-head{
   padding-bottom: 100px;
 }
-.event{
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  padding-top: 100px;
+.birth-head>img{
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
-.event-txt{
+.birth-head>p{
+  color: #fff;
   font-family: 'NotoSerifKR';
-  font-weight: bold;
-  padding-top: 20px;
+  font-size: 25px;
+  line-height: 40px;
 }
-.event-txt>span{
-  color: #ac005c;
-  font-weight: 500;
-}
-.event-txt>li>a:hover{
+.birth-head>p>span{
   text-decoration-line: underline;
 }
+.birth-head>p1{
+  color: #fff;
+  font-family: 'NotoSerifKR';
+  font-size: 18px;
+}
+.birth-img>p{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'NotoSerifKR';
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 
 
 
@@ -270,15 +331,8 @@
 .line{
   top: 52px;
 }
-.event-area2{
-  margin-top: -55px;
-}
-.event-area{
-  margin-top: -10%;
-}
 .event-txt>h1{
-  font-size: 20px;
-  
+  font-size: 20px; 
 }
 .event-txt>p{
   font-size: 20px;
@@ -289,7 +343,10 @@
 .event-txt{
   padding-bottom: 30px;
 }
-
+/* 예약페이지 ㅜ */
+.event-area{
+  margin-top: -100px;
+}
 }
 
 
@@ -1081,7 +1138,9 @@ h3 {
 /* line 15, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 0 150px;
+  
 }
+
 
 @media (max-width: 767px) {
   /* line 15, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
@@ -3005,6 +3064,10 @@ h3 {
 .breadcam_bg_5{
   background-image: url(../img/banner/wine-banner5.jpg);
 }
+.breadcam_bg_6{
+  background-image: url(../img/banner/sample.jpg);
+  
+}
 
 
 /* line 10, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_bradcam.scss */
@@ -3013,6 +3076,12 @@ h3 {
   background-position: center center;
   text-align: center;
   padding: 215px 0 100px 0;
+}
+.bradcam_area2 {
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding: 1px 0 100px 0;
 }
 
 @media (max-width: 767px) {
