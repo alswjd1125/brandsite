@@ -180,34 +180,14 @@
  top: 55%;
 }
 
-.contact-btn{
-  width: 120px;
-  height: 50px;
-  border: 2px solid #ac005c;
-  border-radius: 50px;
-  margin: 0 auto;
-  margin-top: 100px;
-  cursor: pointer;
-}
-.contact-btn>p{
-  color: #ac005c;
-  padding-top: 6px;
-  font-family: 'NotoSerifKR';
-  font-size: 20px;
-}
-.contact-btn:hover{
-  background-color: #ac005c;
-  transition: .4s;
- 
-}
-.contact-btn:hover>p{
-  color: #fff;
-  transition: .2s;
-}
 .contact-title>p{
   font-family: 'NotoSerifKR';
   padding-top: 30px;
   font-size: 20px;
+}
+/*  */
+.event-btn2{
+  padding-top: 100px;
 }
 /* 생일이벤트 시작 */
 .birth-txt{
@@ -254,6 +234,64 @@
   font-family: 'NotoSerifKR';
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.event-btn{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* 와인이벤트 시작 */
+.wine-head>p{
+  font-family: 'NotoSerifKR';
+  font-size: 30px;
+  padding-top: 50px;
+}
+.wine-mid{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.wine-mid>p{
+  font-family: 'NotoSerifKR';
+  font-size: 20px;
+  padding-top: 80px;
+}
+.wine-event2{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.wine-mid2>p{
+  font-family: 'NotoSerifKR';
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+.wine-mid2-txt>p{
+  font-family: 'NotoSerifKR';
+  font-size: 20px;
+  padding-top: 30px;
+  line-height: 50px;
+}
+.span{
+  width: 90px;
+  height: 50px;
+  border: 2px solid #ac005c;
+  font-family: 'NotoSerifKR';
+  color: #ac005c; 
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.wine-event{
+  padding-bottom: 100px;
+}
+.span:hover{
+  background-color: #ac005c;
+  color: #fff;
+  transition: .5s;
+}
+/* 장소대여 시작 */
+.place-head>p{
+  font-family: 'NotoSerifKR';
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -347,6 +385,47 @@
 .event-area{
   margin-top: -100px;
 }
+/* 이벤트 1 시작 */
+.birth-txt>h1{
+  font-size: 25px;
+}
+.birth-head>p{
+  font-size: 20px;
+}
+.birth-img>img{
+  width: 100%;
+}
+.birth-img>p{
+  font-size: 16px;
+  margin-bottom: -50px;
+}
+.event-btn{
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+/* 와인이벤트 */
+.wine-head>p{
+  font-size: 20px;
+}
+.wine-mid{
+  margin-top: -50px;
+  margin-bottom: -70px;
+}
+.wine-mid>p{
+margin-top: -70px;
+font-size: 20px;
+letter-spacing: -1px;
+}
+.wine-mid2>img{
+  width: 100%;
+}
+.wine-mid2-txt>p{
+  font-size: 20px;
+  letter-spacing: -2px;
+  line-height: 35px;
+}
+
+
 }
 
 
